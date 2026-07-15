@@ -40,4 +40,4 @@
   The script isolates its third-party requirements (expectedly packages like matplotlib or pandas) inside the my_env/ virtual directory.
   To recreate the runtime state, you must source this environment or review its binaries if you migrate the project to a modern system.   
 
-https://github.com/ShonCamarlinghi/Network_log_plotter/issues/1#issue-4896348110 
+
