@@ -1,7 +1,12 @@
 
-Network Data Log Cleaner and Plotter.
+<div align="center">
 
-This technical note provides an overview, architecture breakdown, and operational guide for the plotter repository. The system automated the parsing, filtering, and graphical visualization of 24-hour network performance datasets.
+<img width="80%" src="resultDir/traceroute_perf.sh.8266.run_out/traceroute_perf.sh.8266.run_plot.png"/>
+
+<h1>Network Data Log Cleaner and Plotter</h1>
+<h3>Don't just grep your network logfiles, plot them!</h3>
+
+<p>This technical note provides an overview, architecture breakdown, and operational guide for the plotter repository. The system automated the parsing, filtering, and graphical visualization of 24-hour network performance datasets.</a>.</p>
 
 1. System Overview
    The core purpose of this toolchain was to ingest raw network traffic or metric logs, strip away corrupted or unparseable entries,
@@ -41,3 +46,5 @@ This technical note provides an overview, architecture breakdown, and operationa
 5. Dependencies and environment
   The script isolates its third-party requirements (expectedly packages like matplotlib or pandas) inside the my_env/ virtual directory.
   To recreate the runtime state, you must source this environment or review its binaries if you migrate the project to a modern system.   
+
+https://github.com/ShonCamarlinghi/Network_log_plotter/issues/1#issue-4896348110 
