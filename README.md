@@ -17,16 +17,7 @@
 
 3. Component directory architecture.
     The workspace is organized into explicit functional domains to separate input runtime files from processing logic:
-```
-├── .idea/                # Local JetBrains IDE environment metadata
-├── logDir/               # Input repository for raw 24-hour network text logs
-├── my_env/               # Local Python virtual environment containing dependencies
-├── resultDir/            # Output target for generated visual graphs (PNG/PDF)
-├── BAD_DATA.txt          # Quarantine file isolated during data-cleaning runs
-├── README.md             # High-level repository summary
-├── avg.awk               # Stream processing script to compute data-point averages
-└── log_plotter.py        # Master execution script handling pipeline logic & plotting
-```
+<img width="674" height="181" alt="Image" src="https://github.com/user-attachments/assets/6e11a671-ad27-4200-a59a-fcfa07a381a3" />
 
 4. Data processing pipeline.
    Execution flows through three sequential steps.
