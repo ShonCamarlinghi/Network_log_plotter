@@ -29,9 +29,11 @@
    to keep the primary pipeline stable.
 
    Stage 2: Aggregation | avg.awk \
-   The sanitized network metrics are passed through the AWK script. It processes timestamps and aggregates columns
-   (such as throughput, latency, or packet volumes) into calculated averages.
-
+   The sanitized network metrics are passed through the AWK script. It processes timestamps and aggregates columns \
+   (such as throughput, latency, or packet volumes) into calculated averages. \
+   This humble awk script performs Statistical Feature Engineering (Temporal Abstraction), where raw log data \
+   is transformed into structured numerical vectors representing traffic characteristics (such as throughput, latency, or packet volumes).
+ 
    Stage 3: Visual Rendering | log_plotter.pyAction \
    Python reads the compiled averages, maps them across a 24-hour timeline,
    and outputs polished visual trends to resultDir/.
