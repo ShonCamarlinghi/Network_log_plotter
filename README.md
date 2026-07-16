@@ -4,7 +4,7 @@
 <img width="80%" src="resultDir/traceroute_perf.sh.8266.run_out/traceroute_perf.sh.8266.run_plot.png"/>
 
 <h1>Network Data Log Cleaner and Plotter</h1>
-<h3>Don't just grep your network logfiles, plot them!</h3>
+<h3>Don't just grep your network logfiles - plot them!</h3>
 </div>
 <p>This technical note provides an overview, architecture breakdown, and operational guide for the plotter repository. The system automated the parsing, filtering, and graphical visualization of 24-hour network performance datasets.</a>.</p>
 
